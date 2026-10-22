@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Rna3nMEgzOmGr_iQKKEi">
+    <mxGraphModel dx="1481" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-24" edge="1" parent="1" source="-Hn2mGBcPQzseHe5Tbf1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="-Hn2mGBcPQzseHe5Tbf1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="100" width="100" x="95" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-25" edge="1" parent="1" source="-Hn2mGBcPQzseHe5Tbf1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="-Hn2mGBcPQzseHe5Tbf1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-20" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontColor=light-dark(#00F5FF,#FFFFFF);" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: light-dark(rgb(5, 8, 16), rgb(17, 17, 17));&quot;&gt;Take the&lt;/span&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: light-dark(rgb(5, 8, 16), rgb(0, 0, 0));&quot;&gt; customer order&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="295" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-21" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontColor=light-dark(rgb(0, 245, 255), #f2f2f2);" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: light-dark(rgb(5, 8, 16), rgb(0, 0, 0));&quot;&gt;Run the credit check&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="515" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-27" edge="1" parent="1" source="-Hn2mGBcPQzseHe5Tbf1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="-Hn2mGBcPQzseHe5Tbf1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-22" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; color: light-dark(rgb(0, 245, 255), rgb(255, 255, 255)); background-color: light-dark(rgb(5, 8, 16), rgb(0, 0, 0));&quot;&gt;Record the sale&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="735" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-23" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="955" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-Hn2mGBcPQzseHe5Tbf1-26" edge="1" parent="1" source="-Hn2mGBcPQzseHe5Tbf1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="-Hn2mGBcPQzseHe5Tbf1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
