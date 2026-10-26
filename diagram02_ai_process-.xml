@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram name="BPMN Process" id="bpmn-process-1">
+    <mxGraphModel dx="1261" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start_event" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="act_take_order" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Take the customer order" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="act_credit_check" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Run the credit check" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway_credit" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Credit approved?" vertex="1">
+          <mxGeometry height="100" width="100" x="460" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="act_ship" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Ship the goods" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="act_record" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Record the order" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="end_event_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="940" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="act_reject" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Reject the order" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="end_event_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="780" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_1" edge="1" parent="1" source="start_event" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="act_take_order" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_2" edge="1" parent="1" source="act_take_order" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="act_credit_check" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_3" edge="1" parent="1" source="act_credit_check" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gateway_credit" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_approved" edge="1" parent="1" source="gateway_credit" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="act_ship" value="approved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_ship_record" edge="1" parent="1" source="act_ship" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="act_record" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_record_end" edge="1" parent="1" source="act_record" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="end_event_1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_rejected" edge="1" parent="1" source="gateway_credit" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="act_reject" value="rejected">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_reject_end" edge="1" parent="1" source="act_reject" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="end_event_2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
